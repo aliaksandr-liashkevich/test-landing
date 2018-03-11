@@ -1,0 +1,20 @@
+build/
+.vs_code/
+node_modules/
+npm-debug.log
+.DB_Store
+
+### Windows template
+Thumbs.db
+enthumbs.db
+
+Desktop.ini
+
+$RECYCLE.BIN/
+
+*.cab
+*.msi
+*.msm
+*.msp
+
+*lnk
