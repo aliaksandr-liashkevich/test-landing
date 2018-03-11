@@ -16,7 +16,9 @@
 * package.json - includes all dependencies
 >npm install
 
+## Comments section
 
+>autoprefix, sourcemaps - must install!
 
 
 
