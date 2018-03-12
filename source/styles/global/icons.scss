@@ -1,0 +1,17 @@
+.icon {
+    
+    &-phone {
+        @include fa($fa-mobile, black ,21px);
+    }
+    
+    
+    &-email {
+        @include fa($fa-envelope-square, black ,17px);
+    }
+    
+    &-facebook {
+        @include fa($fa-facebook-square, #1287bf , 27px);
+        border-radius: 3px;
+    }
+}
+

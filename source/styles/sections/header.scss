@@ -1,0 +1,55 @@
+.header {
+    &-top {
+      background-color: #f0f2f4;
+      border-bottom: 1px solid #e2e2e2;
+    }
+
+    &-bottom {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 41px 0px 32px;
+
+        & .header-button.button-red {
+            margin-right: 2px;
+        }
+    }
+}
+
+.contacts {
+    text-align: right;
+}
+
+.contact {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 10px 12px;
+    color: #424242;
+    transition: 0.3s;
+
+    &:hover {
+        color: lighten(#424242, 20%);
+    }
+
+    &:first-child {
+        margin-right: 8px;
+        padding-right: 18px;
+        border-right: 1px solid #e2e2e2;
+    }
+
+    &-icon {
+        vertical-align: middle ;
+        margin-right: 5px;
+        margin-bottom: 2px;
+        font-size: 1.5rem;
+    }
+
+    &-icon.icon-phone {
+        margin-right: 2px;
+    }
+
+    &-facebook {
+        padding: 7px 0px 6px;
+    }
+}
