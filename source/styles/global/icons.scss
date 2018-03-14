@@ -1,9 +1,8 @@
-.icon {
+.icon-small {
     
     &-phone {
         @include fa($fa-mobile, black ,21px);
     }
-    
     
     &-email {
         @include fa($fa-envelope-square, black ,17px);
@@ -15,3 +14,18 @@
     }
 }
 
+.icon {
+    margin: auto auto 23px auto;
+
+    &-like {
+        @include sprite($like);
+    }
+
+    &-book {
+        @include sprite($book);
+    }
+
+    &-message {
+        @include sprite($message);
+    }
+}

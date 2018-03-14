@@ -1,6 +1,7 @@
 @import "../../node_modules/font-awesome/scss/font-awesome";
 @import "../../node_modules/fontawesome-scss/fontAwesome";
 
+@import "global/mixins";
 @import "global/fonts";
 @import "global/vars";
 @import "global/common";
@@ -9,5 +10,9 @@
 @import "global/button";
 @import "global/icons";
 
+@import "sections/title";
 @import "sections/header";
 @import "sections/nav";
+@import "sections/hero";
+@import "sections/about";
+
