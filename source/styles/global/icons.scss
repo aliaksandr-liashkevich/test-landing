@@ -12,6 +12,11 @@
         @include fa($fa-facebook-square, #1287bf , 27px);
         border-radius: 3px;
     }
+
+    &-angel-down {
+        @include fa($fa-angle-down, #ffffff , 44px);
+        border-radius: 3px;
+    }
 }
 
 .icon {
