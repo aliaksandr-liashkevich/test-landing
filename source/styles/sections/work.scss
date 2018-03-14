@@ -1,0 +1,53 @@
+.work {
+    padding: 110px 0;
+    background: #de2b24;
+    color: #fff;
+
+    &-list {
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .title-with-bottom-line {
+        &:after {
+            background: #fff;
+        }
+    }
+
+    &-item {
+        width: 256px;
+        height: 255px;
+        font-weight: bold;
+        background: #f35e59;
+        color: #ffffff;
+
+        &-name {
+            position: relative;
+            padding: 130px 40px 75px 40px;
+            text-align: center;
+
+            &:before {
+                @include sprite($work-item);
+                @include center-x();
+
+                content: '';
+                top: 74px;
+            }
+        }
+    }
+
+    &-name {
+        font-size: 1.625rem;
+    }
+
+    &-picture {
+        width: 100%;
+        height: 100%;
+    }
+
+    &-description {
+        font-size: 1rem;
+    }
+}
