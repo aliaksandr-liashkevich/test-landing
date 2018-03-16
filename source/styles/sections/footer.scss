@@ -1,0 +1,78 @@
+.footer {
+    &-top {
+        padding: 88px 0 83px;
+        text-align: center;
+        background: #2a2a2a;
+    }
+
+    &-bottom {
+        padding: 26px;
+        text-align: center;
+        background: #515151;
+    }
+
+    &-title {
+        margin-bottom: 20px;
+        font-size: 1.8125rem;
+        color: #fff;
+        font-family: $ff-main-bold;
+    }
+
+    &-links {
+        margin-bottom: 35px;
+        color: #fff;
+
+        & > a:first-child > .icon-small {
+            margin-left: 0px;  
+        }
+        
+
+        .icon-small {
+            margin-left: 21px;
+            padding: 15px;
+            border: 1px solid #515151;
+            border-radius: 3px;
+            transition: 0.3s;
+
+            &:hover {
+                border: 1px solid #de2b24;
+            }
+        }
+    }
+
+    &-text {
+        margin-bottom: 30px;
+        font-size: 0.875rem;
+        color: #cecece;
+    }
+
+    &-field {
+        width: 67%;
+        margin: 0 auto 27px;
+    }
+
+    &-input {
+        width: 100%;
+        padding: 20px;
+        font-size: 0.875rem;
+        border: none;
+        color: #cecece;
+        background: #515151;
+    }
+
+    .button {
+        border: 2px solid #515151;
+        padding: 15px 37px;
+        box-sizing: border-box;
+        font-size: 1.0625rem;
+        font-family: $ff-main-bold;
+        background-color: initial;
+        color: #fff;
+        transition: 0.3s;
+
+        &:hover {
+            border: 2px solid #de2b24;
+        }
+    }
+
+}

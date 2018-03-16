@@ -17,6 +17,22 @@
         @include fa($fa-angle-down, #ffffff , 44px);
         border-radius: 3px;
     }
+
+    &-facebook-official {
+        @include fa($fa-facebook-official, #fff , 45px);
+    }
+
+    &-twitter {
+        @include fa($fa-twitter, #fff , 45px);
+    }
+
+    &-google-plus {
+        @include fa($fa-google-plus-square, #fff , 45px);
+    }
+
+    &-linkedin {
+        @include fa($fa-linkedin, #fff , 45px);
+    }
 }
 
 .icon {
